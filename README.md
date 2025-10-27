@@ -1,7 +1,7 @@
 # Finite Element Method (FEM) Heat Conduction Simulation
 
 This project implements a 2D **Finite Element Method (FEM)** solver for stationary and transient **heat conduction** problems.  
-It was originally developed as part of a university project and has been extended and refactored for open publication.
+It was originally developed as part of a university project.
 
 ---
 
@@ -31,7 +31,7 @@ It demonstrates a full workflow of a simple FEM solver — from data parsing and
 ## Example Input File (`example_input.txt`)
 
 > Due to copyright restrictions, original university test files are **not included**.  
-> The following example shows the required format for running the solver:
+> Repository contains an example file `example_input.txt` as replacement for original files:
 
 
 ---
@@ -39,7 +39,7 @@ It demonstrates a full workflow of a simple FEM solver — from data parsing and
 ## Usage
 
 1. Place your mesh file (e.g., `example_input.txt`) in the same folder as `mes.py`.  
-2. Run the solver:
+2. Run the solver.
 
 ### This will:
 - Parse the input file,
@@ -60,4 +60,5 @@ Install dependencies using:
 ```
 pip install numpy
 pip install matplotlib
+
 ```
